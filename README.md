@@ -1,4 +1,16 @@
-# Gatsby + Netlify CMS Starter
+# Open Project Dashboard
+
+This is an "open project dashboard" project.  Sort of meta that way.  It's the project that lists all the projects, helps onboard leaders and volunteers and provides some visibility.
+
+Here are some links:
+- Project docs on the [Google Drive]() 
+- Data Sources in this [AirTable Workspace]()
+- Issues and Code in this GitHub Repo
+- Website hosted on [Netlify]
+- - Also at projects.eugenetech.org but it's having SSL issues.
+
+
+## Based on the Gatsby + Netlify CMS Starter
 
 **Note:** This starter uses the [Gatsby v2 Beta](https://www.gatsbyjs.org/blog/2018-06-16-announcing-gatsby-v2-beta-launch/).
 
@@ -6,12 +18,12 @@ This repo contains an example business website that is built with [Gatsby](https
 
 It follows the [JAMstack architecture](https://jamstack.org) by using Git as a single source of truth, and [Netlify](https://www.netlify.com) for continuous deployment, and CDN distribution.
 
-## Prerequisites
+### Prerequisites
 
 - Node (I recommend using v8.2.0 or higher)
 - [Gatsby CLI](https://www.gatsbyjs.org/docs/)
 
-## Getting Started (Recommended)
+### Getting Started (Recommended)
 
 Netlify CMS can run in any frontend web environment, but the quickest way to try it out is by running it on a pre-configured starter site with Netlify. The example here is the Kaldi coffee company template (adapted from [One Click Hugo CMS](https://github.com/netlify-templates/one-click-hugo-cms)). Use the button below to build and deploy your own copy of the repository:
 
@@ -19,7 +31,7 @@ Netlify CMS can run in any frontend web environment, but the quickest way to try
 
 After clicking that button, you’ll authenticate with GitHub and choose a repository name. Netlify will then automatically create a repository in your GitHub account with a copy of the files from the template. Next, it will build and deploy the new site on Netlify, bringing you to the site dashboard when the build is complete. Next, you’ll need to set up Netlify’s Identity service to authorize users to log in to the CMS.
 
-### Access Locally
+#### Access Locally
 ```
 $ git clone https://github.com/[GITHUB_USERNAME]/[REPO_NAME].git
 $ cd [REPO_NAME]
@@ -32,7 +44,7 @@ $ npm run build
 $ npm run serve
 ```
 
-## Getting Started (Without Netlify)
+### Getting Started (Without Netlify)
 ```
 $ gatsby new [SITE_DIRECTORY_NAME] https://github.com/netlify-templates/gatsby-starter-netlify-cms/
 $ cd [SITE_DIRECTORY_NAME]
@@ -40,10 +52,10 @@ $ npm run build
 $ npm run serve
 ```
 
-### Setting up the CMS
+#### Setting up the CMS
 Follow the [Netlify CMS Quick Start Guide](https://www.netlifycms.org/docs/quick-start/#authentication) to set up authentication, and hosting.
 
-## Debugging
+### Debugging
 Windows users might encounter ```node-gyp``` errors when trying to npm install.
 To resolve, make sure that you have both Python 2.7 and the Visual C++ build environment installed.
 ```
@@ -53,5 +65,5 @@ npm install --global --production windows-build-tools
 
 [Full details here](https://www.npmjs.com/package/node-gyp 'NPM node-gyp page')
 
-## Purgecss
+### Purgecss
 This plugin uses [gatsby-plugin-purgecss](https://www.gatsbyjs.org/packages/gatsby-plugin-purgecss/) and [bulma](https://bulma.io/). The bulma builds are usually ~170K but reduced 90% by purgecss.
