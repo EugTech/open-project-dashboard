@@ -3,10 +3,10 @@
 This is an "open project dashboard" project.  Sort of meta that way.  It's the project that lists all the projects, helps onboard leaders and volunteers and provides some visibility.
 
 Here are some links:
-- Project docs on the [Google Drive]() 
-- Data Sources in this [AirTable Workspace]()
+- Project docs on the [Google Drive](https://drive.google.com/drive/folders/1cJ-oEHFqgbs8kSNinbeSx8DNf0nVA0tA?usp=sharing) 
+- Data Sources in this [AirTable Workspace](https://airtable.com/invite/l?inviteId=inv2eT6NKEfQgoGxS&inviteToken=64573e6d91f39b9330262c899d7d60350c97f21e11cf5008213d42e74f169936)
 - Issues and Code in this GitHub Repo
-- Website hosted on [Netlify]
+- Website hosted on [Netlify](https://open-project-dashboard.netlify.com/)
 - - Also at projects.eugenetech.org but it's having SSL issues.
 
 
